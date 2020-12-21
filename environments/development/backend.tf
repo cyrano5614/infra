@@ -4,7 +4,7 @@ terraform {
     organization = "rois-theorem"
 
     workspaces {
-      name = "development-"
+      prefix = "infra-"
     }
   }
 }
